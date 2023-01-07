@@ -1,0 +1,28 @@
+{
+  "name": "wdio_mbenz",
+  "version": "1.0.0",
+  "description": "wdio_mbenz",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lippecruz/wdio_mbenz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lippecruz/wdio_mbenz/issues"
+  },
+  "homepage": "https://github.com/lippecruz/wdio_mbenz#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2",
+    "dotenv": "^16.0.1"
+  },
+  "dependencies": {
+    "tsyringe": "^4.7.0"
+  }
+}
